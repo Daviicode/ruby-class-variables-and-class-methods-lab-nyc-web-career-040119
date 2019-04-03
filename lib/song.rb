@@ -20,7 +20,7 @@ class Song
   end 
   
   def Song .artists
-    @@artists.uniq
+    @@artists.unique
   end
   
 end   
