@@ -16,9 +16,11 @@ class Song
   end
   
   def Song .count
-     @@count += 1
+     
   end 
   
-  
+  def Song .artists
+    
+  end
   
 end   
