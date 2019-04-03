@@ -29,8 +29,10 @@ class Song
   
   def self.genre_count
     count = {}
-    count << self.genres.each_with_index{|gen| gen => index}
-  
+    self.genres.each_with_index do |gen, index|
+      count << {"#{gen} => #{index}"
+    end
+    count
   end 
   
   def self.artist_count
