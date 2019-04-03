@@ -36,7 +36,11 @@ class Song
   end 
   
   def self.artist_count
-    
+    artist_hash = {}
+    @@artists.uniq.each do |art|
+      artist_hash[art] = @@genres.count(art)
+    end
+    artist_hash
   end
   
 end   
