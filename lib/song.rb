@@ -13,8 +13,8 @@ class Song
     @@count += 1 
   end
   
-  def .count.all
-    self
+  def .count
+    
   end
   
   
