@@ -28,8 +28,8 @@ class Song
   end
   
   def self.genre_count
-    count = {self.genres}
-    
+    count = {}
+    count << self.genres
   end 
   
   def self.artist_count
